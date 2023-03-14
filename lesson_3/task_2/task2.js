@@ -8,7 +8,7 @@ console.log(arr); // [2,3,4,5,6,7,8,9]
 */
 
 function createArray(start, end) {
-  let arr = new Array();
+  let arr;
   for (let i = start; i <= end; i++) {
     arr.push(i);
   }
