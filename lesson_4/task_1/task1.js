@@ -38,4 +38,4 @@ function sumSliceArray(arr, first, second) {
   }
 }
 
-console.log(sumSliceArray([1, 2, 3], 0, 1));
+module.exports = { sumSliceArray, SliceException };

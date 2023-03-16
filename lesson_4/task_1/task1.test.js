@@ -21,4 +21,4 @@ test("sumSliceArray should throw a SliceException when given out of bounds index
   }).toThrowError(SliceException);
 });
 
-module.exports = { sumSliceArray, SliceException };
+module.exports = { sumSliceArray, SliceException }; //export for jest tests
