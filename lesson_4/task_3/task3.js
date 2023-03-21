@@ -50,8 +50,6 @@ function calcRectangleArea(width, height) {
   }
 }
 
-//inputValues();
-
 module.exports = {
   RectangleException,
   calcRectangleArea,
