@@ -1,0 +1,9 @@
+.button-row button {
+  display: inline-block;
+}
+
+.button-row {
+  width: 870px;
+  padding: 5px 5px 25px 5px;
+  background-color: yellow;
+}
