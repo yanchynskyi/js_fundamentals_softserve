@@ -5,23 +5,26 @@
 */
 
 function printResult(status) {
-  var div = document.getElementById("status");
+  let div = document.getElementById("status");
 
   switch (status) {
     case "clicked":
-      var newParagraph = document.createElement("p");
-      var text = document.createTextNode("I was pressed!");
-      newParagraph.appendChild(text);
-      div.appendChild(newParagraph);
+      let newParagraph1 = document.createElement("p");
+      let text1 = document.createTextNode("I was pressed!");
+      newParagraph1.appendChild(text1);
+      div.appendChild(newParagraph1);
+      break;
     case "over":
-      var newParagraph = document.createElement("p");
-      var text = document.createTextNode("Mouse on me!");
-      newParagraph.appendChild(text);
-      div.appendChild(newParagraph);
+      let newParagraph2 = document.createElement("p");
+      let text2 = document.createTextNode("Mouse on me!");
+      newParagraph2.appendChild(text2);
+      div.appendChild(newParagraph2);
+      break;
     case "out":
-      var newParagraph = document.createElement("p");
-      var text = document.createTextNode("Mouse is not on me!");
-      newParagraph.appendChild(text);
-      div.appendChild(newParagraph);
+      let newParagraph3 = document.createElement("p");
+      let text3 = document.createTextNode("Mouse is not on me!");
+      newParagraph3.appendChild(text3);
+      div.appendChild(newParagraph3);
+      break;
   }
 }
